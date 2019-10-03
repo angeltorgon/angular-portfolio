@@ -1,8 +1,16 @@
 .skills-container {
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: 20px 0 10px 0;
+  border: 1px solid red;
+  padding: 20px;
+
+  .skill-cards-container {
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid blue;
+    height: 50px;
+  }
 }
