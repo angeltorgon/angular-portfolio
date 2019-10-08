@@ -44,17 +44,18 @@
   }
 
   .button {
-    background-color: #005164;
+    background-color: #014b5c;
     color: white;
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
     font-size: 18px;
-    box-shadow: 0px 0px 5px 0px rgba(175, 175, 175, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(241, 240, 240, 0.75);
     transition: ease-in-out 0.3s;
+    text-decoration: none;
 
     &:hover {
-      background-color: #014b5c;
+      background-color: #003c49;
     }
   }
 }
