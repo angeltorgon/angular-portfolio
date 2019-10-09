@@ -1,0 +1,36 @@
+.contact-container {
+  height: 500px;
+  width: 100%;
+  background-color: #41474c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .contact-form {
+    width: 70%;
+    max-width: 400px;
+    min-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .name-email-container {
+      display: flex;
+      width: 100%;
+
+      .name-email-input {
+        width: 50%;
+        margin: 10px 0;
+        height: 40px;
+      }
+    }
+
+    .contact-input {
+      height: 40px;
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
+}
