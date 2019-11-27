@@ -1,7 +1,7 @@
 .contact-container {
   min-height: 500px;
   width: 100%;
-  background-color: #41474c;
+  background-color: rgb(24,20,17);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +86,7 @@
       }
 
       .clear-button {
-        background-color: #3d3d3d;
+        background-color: rgb(31,35,36);
         &:hover {
           background-color: #313131;
         }
