@@ -33,6 +33,27 @@
 
       .project-description {
         padding-top: 10px;
+        line-height: 18px;
+        font-size: medium;
+      }
+
+      .project-link {
+        text-decoration: none;
+        color: black;
+        display: block;
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px 0px lightgrey;
+      }
+
+      .project-title {
+        padding: 10px;
+        margin: 20px;
+        border-bottom: 1px solid darkgray;
+        font-weight: bolder;
+        text-align: center;
       }
     }
   }
