@@ -5,7 +5,7 @@
   margin: 20px 0 10px 0;
   padding: 20px;
   font-size: 20px;
-  height: auto;
+  justify-content: space-between;
 
   .project-cards-container {
     margin-top: 20px;
@@ -21,8 +21,7 @@
       box-shadow: 0px 0px 5px 0px rgba(175, 175, 175, 0.75);
       background-color: white;
       position: relative;
-      height: auto;
-
+      height: 500px;
 
       @media (max-width: 800px) {
         width: 100%;
@@ -35,15 +34,26 @@
         border-radius: 5px 5px 0 0;
       }
 
-      .project-description {
-        padding-top: 10px;
-        line-height: 18px;
-        font-size: medium;
-        font-family: 'Hind', sans-serif;
-        line-height: 1.5;  
-        padding: 0 20px;
-      }
+      .project-text-container {
 
+        .project-description {
+          padding-top: 10px;
+          line-height: 18px;
+          font-size: medium;
+          font-family: 'Hind', sans-serif;
+          line-height: 1.5;  
+          padding: 0 20px;
+        }
+
+
+        .project-title {
+          padding: 10px;
+          margin-bottom: 20px;
+          border-bottom: .4px solid whitesmoke;
+          font-weight: bolder;
+          text-align: center;
+        }
+      }
       .project-link {
         text-decoration: none;
         color: black;
@@ -53,15 +63,10 @@
         padding: 10px;
         border-radius: 10px;
         box-shadow: 0px 0px 3px 0px lightgrey;
-        padding: 20px;
-      }
-
-      .project-title {
-        padding: 10px;
-        margin-bottom: 20px;
-        border-bottom: .4px solid whitesmoke;
-        font-weight: bolder;
-        text-align: center;
+        margin: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 65px;
       }
     }
   }
