@@ -21,7 +21,7 @@
       box-shadow: 0px 0px 5px 0px rgba(175, 175, 175, 0.75);
       background-color: white;
       position: relative;
-      height: 500px;
+      height: auto;
 
       @media (max-width: 800px) {
         width: 100%;
@@ -38,13 +38,11 @@
 
         .project-description {
           padding-top: 10px;
-          line-height: 18px;
           font-size: medium;
           font-family: 'Hind', sans-serif;
           line-height: 1.5;  
           padding: 0 20px;
         }
-
 
         .project-title {
           padding: 10px;
@@ -64,9 +62,9 @@
         border-radius: 10px;
         box-shadow: 0px 0px 3px 0px lightgrey;
         margin: 20px;
-        position: absolute;
-        bottom: 0;
-        left: 65px;
+        // position: absolute;
+        // bottom: 0;
+        // left: 65px;
       }
     }
   }
